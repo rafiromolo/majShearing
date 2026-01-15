@@ -1,0 +1,17 @@
+CRITICAL - 2025-12-18 02:25:46 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: GET, Route: spec-shearing]
+in APPPATH\Models\M_curl.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-18 02:32:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "shearing/print.php"
+[Method: GET, Route: print]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('shearing/print.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('shearing/print', [], true)
+ 3 APPPATH\Controllers\Report.php(102): view('shearing/print', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->print()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\RAFI\\Program Shearing\\ci-app\\public\\index.php')

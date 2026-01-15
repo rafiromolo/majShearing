@@ -1,0 +1,4 @@
+CRITICAL - 2026-01-06 03:40:11 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: POST, Route: shearing]
+in APPPATH\Models\M_curl.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

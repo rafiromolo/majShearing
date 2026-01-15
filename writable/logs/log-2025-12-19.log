@@ -1,0 +1,268 @@
+CRITICAL - 2025-12-19 09:11:50 --> ParseError: syntax error, unexpected token ")", expecting variable or "{" or "$"
+[Method: GET, Route: print]
+in APPPATH\Views\main\print.php on line 84.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('main/print', [], true)
+ 3 APPPATH\Controllers\Report.php(102): view('main/print', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->print()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\RAFI\\Program Shearing\\ci-app\\public\\index.php')
+CRITICAL - 2025-12-19 10:57:59 --> ErrorException: Undefined variable $mThickness
+[Method: GET, Route: print]
+in APPPATH\Views\main\print.php on line 132.
+ 1 APPPATH\Views\main\print.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mThickness', 'D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php', 132)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('main/print', [], true)
+ 5 APPPATH\Controllers\Report.php(102): view('main/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->print()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\RAFI\\Program Shearing\\ci-app\\public\\index.php')
+CRITICAL - 2025-12-19 10:58:43 --> ErrorException: Undefined variable $mThickness
+[Method: GET, Route: print]
+in APPPATH\Views\main\print.php on line 132.
+ 1 APPPATH\Views\main\print.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mThickness', 'D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php', 132)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('main/print', [], true)
+ 5 APPPATH\Controllers\Report.php(102): view('main/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->print()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\RAFI\\Program Shearing\\ci-app\\public\\index.php')
+CRITICAL - 2025-12-19 10:58:57 --> ErrorException: Undefined variable $mThickness
+[Method: GET, Route: print]
+in APPPATH\Views\main\print.php on line 132.
+ 1 APPPATH\Views\main\print.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mThickness', 'D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php', 132)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('main/print', [], true)
+ 5 APPPATH\Controllers\Report.php(102): view('main/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->print()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\RAFI\\Program Shearing\\ci-app\\public\\index.php')
+CRITICAL - 2025-12-19 10:59:48 --> ErrorException: Undefined variable $mWidth
+[Method: GET, Route: print]
+in APPPATH\Views\main\print.php on line 133.
+ 1 APPPATH\Views\main\print.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mWidth', 'D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php', 133)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('main/print', [], true)
+ 5 APPPATH\Controllers\Report.php(102): view('main/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->print()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\RAFI\\Program Shearing\\ci-app\\public\\index.php')
+CRITICAL - 2025-12-19 11:01:21 --> ErrorException: Undefined variable $mWidth
+[Method: GET, Route: print]
+in APPPATH\Views\main\print.php on line 133.
+ 1 APPPATH\Views\main\print.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mWidth', 'D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php', 133)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('main/print', [], true)
+ 5 APPPATH\Controllers\Report.php(102): view('main/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->print()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\RAFI\\Program Shearing\\ci-app\\public\\index.php')
+CRITICAL - 2025-12-19 11:02:07 --> ErrorException: Undefined variable $mWidth
+[Method: GET, Route: print]
+in APPPATH\Views\main\print.php on line 133.
+ 1 APPPATH\Views\main\print.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mWidth', 'D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php', 133)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('main/print', [], true)
+ 5 APPPATH\Controllers\Report.php(102): view('main/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->print()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\RAFI\\Program Shearing\\ci-app\\public\\index.php')
+CRITICAL - 2025-12-19 11:04:07 --> ErrorException: Undefined variable $mWidth
+[Method: GET, Route: print]
+in APPPATH\Views\main\print.php on line 133.
+ 1 APPPATH\Views\main\print.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mWidth', 'D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php', 133)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('main/print', [], true)
+ 5 APPPATH\Controllers\Report.php(102): view('main/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->print()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\RAFI\\Program Shearing\\ci-app\\public\\index.php')
+CRITICAL - 2025-12-19 11:05:10 --> ErrorException: Undefined variable $mWidth
+[Method: GET, Route: print]
+in APPPATH\Views\main\print.php on line 133.
+ 1 APPPATH\Views\main\print.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mWidth', 'D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php', 133)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('main/print', [], true)
+ 5 APPPATH\Controllers\Report.php(102): view('main/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->print()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\RAFI\\Program Shearing\\ci-app\\public\\index.php')
+CRITICAL - 2025-12-19 11:06:20 --> ErrorException: Undefined variable $mWidth
+[Method: GET, Route: print]
+in APPPATH\Views\main\print.php on line 133.
+ 1 APPPATH\Views\main\print.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mWidth', 'D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php', 133)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('main/print', [], true)
+ 5 APPPATH\Controllers\Report.php(102): view('main/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->print()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\RAFI\\Program Shearing\\ci-app\\public\\index.php')
+CRITICAL - 2025-12-19 11:07:22 --> ErrorException: Undefined variable $mWidth
+[Method: GET, Route: print]
+in APPPATH\Views\main\print.php on line 133.
+ 1 APPPATH\Views\main\print.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mWidth', 'D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php', 133)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('main/print', [], true)
+ 5 APPPATH\Controllers\Report.php(102): view('main/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->print()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\RAFI\\Program Shearing\\ci-app\\public\\index.php')
+CRITICAL - 2025-12-19 11:07:45 --> ErrorException: Undefined variable $mWidth
+[Method: GET, Route: print]
+in APPPATH\Views\main\print.php on line 133.
+ 1 APPPATH\Views\main\print.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mWidth', 'D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php', 133)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('main/print', [], true)
+ 5 APPPATH\Controllers\Report.php(102): view('main/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->print()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\RAFI\\Program Shearing\\ci-app\\public\\index.php')
+CRITICAL - 2025-12-19 11:08:06 --> ErrorException: Undefined variable $mWidth
+[Method: GET, Route: print]
+in APPPATH\Views\main\print.php on line 133.
+ 1 APPPATH\Views\main\print.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mWidth', 'D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php', 133)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('main/print', [], true)
+ 5 APPPATH\Controllers\Report.php(102): view('main/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->print()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\RAFI\\Program Shearing\\ci-app\\public\\index.php')
+CRITICAL - 2025-12-19 11:19:11 --> ErrorException: Undefined variable $mWidth
+[Method: GET, Route: print]
+in APPPATH\Views\main\print.php on line 133.
+ 1 APPPATH\Views\main\print.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mWidth', 'D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php', 133)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('main/print', [], true)
+ 5 APPPATH\Controllers\Report.php(102): view('main/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->print()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\RAFI\\Program Shearing\\ci-app\\public\\index.php')
+CRITICAL - 2025-12-19 11:21:57 --> ErrorException: Undefined variable $mWidth
+[Method: GET, Route: print]
+in APPPATH\Views\main\print.php on line 133.
+ 1 APPPATH\Views\main\print.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mWidth', 'D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php', 133)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('main/print', [], true)
+ 5 APPPATH\Controllers\Report.php(102): view('main/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->print()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\RAFI\\Program Shearing\\ci-app\\public\\index.php')
+CRITICAL - 2025-12-19 11:22:21 --> ErrorException: Undefined variable $mLength
+[Method: GET, Route: print]
+in APPPATH\Views\main\print.php on line 134.
+ 1 APPPATH\Views\main\print.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mLength', 'D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('main/print', [], true)
+ 5 APPPATH\Controllers\Report.php(102): view('main/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->print()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\RAFI\\Program Shearing\\ci-app\\public\\index.php')
+CRITICAL - 2025-12-19 11:22:31 --> ErrorException: Undefined variable $customer
+[Method: GET, Route: print]
+in APPPATH\Views\main\print.php on line 137.
+ 1 APPPATH\Views\main\print.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php', 137)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('main/print', [], true)
+ 5 APPPATH\Controllers\Report.php(102): view('main/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->print()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\RAFI\\Program Shearing\\ci-app\\public\\index.php')
+CRITICAL - 2025-12-19 11:36:12 --> ErrorException: Undefined variable $mThickness
+[Method: GET, Route: print]
+in APPPATH\Views\main\print.php on line 132.
+ 1 APPPATH\Views\main\print.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mThickness', 'D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php', 132)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\RAFI\\Program Shearing\\ci-app\\app\\Views\\main\\print.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('main/print', [], true)
+ 5 APPPATH\Controllers\Report.php(102): view('main/print', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->print()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\RAFI\\Program Shearing\\ci-app\\public\\index.php')

@@ -1,0 +1,32 @@
+CRITICAL - 2025-12-17 03:47:28 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: POST, Route: shearing]
+in APPPATH\Models\M_curl.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-17 04:13:05 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: GET, Route: material]
+in APPPATH\Models\M_curl.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-17 07:46:12 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: GET, Route: material]
+in APPPATH\Models\M_curl.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-17 07:48:37 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: GET, Route: material]
+in APPPATH\Models\M_curl.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-17 07:50:50 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: GET, Route: material]
+in APPPATH\Models\M_curl.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-17 09:52:27 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: GET, Route: material]
+in APPPATH\Models\M_curl.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-17 09:54:03 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: GET, Route: spec-shearing]
+in APPPATH\Models\M_curl.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-12-17 09:56:30 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: POST, Route: shearing]
+in APPPATH\Models\M_curl.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
