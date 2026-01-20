@@ -39,7 +39,12 @@ class Report extends BaseController
         // $responseData = $data['data']['ZDT_MTRL2'] ?? [];
         $responseData = $data;
 
-        return $this->response->setJSON($responseData);
+        return $this->response->setJSON([
+            'status' => 200,
+            'success' => true,
+            'message' => 'Data material berhasil diambil',
+            'data' => $responseData,
+        ])->setStatusCode(200);
     }
 
     public function shearing()
