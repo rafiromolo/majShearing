@@ -59,7 +59,7 @@ class Report extends BaseController
             return $this->response->setJSON([
                 'status' => false,
                 'message' => 'Material kosong'
-            ]);
+            ])->setStatusCode(500);
         }
 
         $today = date('Ymd');

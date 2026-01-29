@@ -186,9 +186,10 @@
 
   showLoading();
 
-  fetch("<?= site_url('/material') ?>")
+  fetch("http://192.168.10.8/order-shearing/index.php/material")
     .then(res => res.json())
     .then(data => {
+      console.log(data);
       if (!data.success) {
         showError(data.message);
         return;

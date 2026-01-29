@@ -5,6 +5,9 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
+$routes->options('(:any)', function () {
+    return service('response')->setStatusCode(200);
+});
 $routes->get('/', 'Report::index');
 $routes->get('/material', 'Report::material');
 $routes->post('/shearing', 'Report::shearing');
