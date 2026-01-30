@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use CodeIgniter\Controller;
 use App\Models\M_curl;
+use App\Models\M_sql;
 
 class Report extends BaseController
 {
@@ -114,10 +115,14 @@ class Report extends BaseController
     public function create_order()
     {
         $M_curl = new M_curl();
+        $M_sql = new M_sql();
 
         $request = $this->request->getJSON(true);
+
         $shearing = $request['shearing'] ?? null;
         $quantity = $request['quantity'] ?? null;
+
+        $nik = null;
 
         if (empty($shearing)) {
             return $this->response->setJSON([
@@ -126,11 +131,22 @@ class Report extends BaseController
             ]);
         }
 
-        // $responseData = [
-        //     'shearing' => $shearing,
-        //     'quantity' => $quantity
-        // ];
+        // INSERT AWAL (PENDING)
+        // $transactionId = service('uuid')->uuid4()->toString();
 
+        $M_sql->insert([
+            'shearing_number' => $shearing,
+            'order_type' => 'ZSHR',
+            'quantity' => $quantity,
+            'payload' => json_encode($request),
+            'status' => 'pending',
+            'created_at' => date('Y-m-d H:i:s'),
+            'nik' => $nik
+        ]);
+
+        $id = $M_sql->getInsertID();
+
+        // CALL SAP
         $this->SAP_PARAMS['function'] = 'Z_PUD';
         $this->SAP_PARAMS['params'] = [
             'RPT' => 'SHEAR',
@@ -142,7 +158,13 @@ class Report extends BaseController
         $sap = $M_curl->execute("POST", $this->SAP_PARAMS);
         $data = json_decode(json_encode($sap), true);
         $responseData = $data['data']['ZSHEARING_RFC'] ?? [];
-        // $responseData = $data;
+
+        // Success
+        $M_sql->update($id, [
+            'status' => 'success',
+            'order_number' => $responseData[0]['MESSAGE'],
+            'result' => $responseData[0]['MESSAGE2'],
+        ]);
 
         return $this->response->setJSON($responseData);
     }
