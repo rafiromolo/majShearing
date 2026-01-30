@@ -26,7 +26,7 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => '192.168.10.8',
+        'hostname'     => '192.168.10.67',
         'username'     => 'root',
         'password'     => 'ult1m4t3',
         'database'     => 'majsf_inventory',
